@@ -1,0 +1,7 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/", "destination": "/ruang-belajar-dtpl/index.html" },
+    { "source": "/(.*)", "destination": "/ruang-belajar-dtpl/$1" }
+  ]
+}
